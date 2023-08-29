@@ -11,6 +11,8 @@ int posicion_letra(char vector[MAX_VECTOR], int tope, char letra){
         }else if (vector[i] == '\0') {
                 return ERROR;
 
+        }else if (i == tope) {
+                return ERROR;
         }
     }
 }
